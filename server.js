@@ -21,6 +21,6 @@ db.connect((err) => {
 app.use('/',AdminRoute);
 app.use('/',Route);
 
-app.listen(8000, () => {
+app.listen(process.env.PORT || 8000, () => {
     console.log('Server started on port 8000');
 });
