@@ -12,7 +12,6 @@ import { useDispatch } from 'react-redux';
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { getUser } from "./axios/admin";
 import Cart from './pages/Cart';
-
 function App() {
  
   const dispatch = useDispatch();
